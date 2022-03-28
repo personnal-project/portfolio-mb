@@ -1,0 +1,220 @@
+.Services{
+    width: 100%;
+    height: 330vh;
+
+    .Services-pc{
+        width: 100%;
+        height: 330vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .title-serv-pc{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                font-size: 50px;
+                font-weight: 500;
+                letter-spacing: 4px;
+            }
+        }
+        
+        .serv-web-pc{
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            margin-top: 7%;
+            justify-content: space-between;
+            
+            .web-img-pc{
+                width: 40%;
+                height: 85vh;
+                display: flex;
+                font-size: 50px;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                background-color: black;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .web-content-pc{
+                width: 60%;
+                height: 70vh;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                h1{
+                    font-size: 60px;
+                    font-weight: 300;  
+                }
+
+                .web-content-info-pc{
+                    width: 100%;
+                    height: 40vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .web-box-pc{
+                        width: 150px;
+                        height: 150px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 100px;
+                        background-color: #BF9B61;
+                    }
+                }
+
+            }
+        }
+
+          
+        .serv-ia-pc{
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            justify-content: space-between;
+
+            
+            .ia-img-pc{
+                width: 40%;
+                height: 85vh;
+                display: flex;
+                font-size: 50px;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                background-color: black;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .ia-content-pc{
+                width: 60%;
+                height: 70vh;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                h1{
+                    font-size: 60px;
+                    font-weight: 300;  
+                }
+
+                .ia-content-info-pc{
+                    width: 100%;
+                    height: 40vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .ia-box-pc{
+                        width: 150px;
+                        height: 150px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 100px;
+                        background-color: #BF9B61;
+                    }
+                }
+
+            }
+        }
+
+          
+        .serv-mob-pc{
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            justify-content: space-between;
+
+            
+            .mob-img-pc{
+                width: 40%;
+                height: 85vh;
+                display: flex;
+                font-size: 50px;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                background-color: black;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .mob-content-pc{
+                width: 60%;
+                height: 70vh;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+
+                h1{
+                    font-size: 60px;
+                    font-weight: 300;  
+                }
+
+                .mob-content-info-pc{
+                    width: 100%;
+                    height: 40vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .mob-box-pc{
+                        width: 180px;
+                        height: 180px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 100px;
+                        background-color: #BF9B61;
+
+                        p{
+                            text-align: center;
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+        .serv-mob{
+            width: 100%;
+            height: 90vh;
+        }
+        .serv-ia{
+            width: 100%;
+            height: 90vh;
+        }
+
+    
+    }
+
+}
+
+
+

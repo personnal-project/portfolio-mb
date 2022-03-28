@@ -1,0 +1,186 @@
+.Realisation{
+    width: 100%;
+    height: 220vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Realisation-pc{
+        width: 100%;
+        height: 190vh;
+    
+        .title-real-pc{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            h1{
+                font-size: 50px;
+                font-weight: 400;
+                letter-spacing: 5px;
+            }
+        }
+    
+        .real-content-pc{
+            width: 100%;
+            height: 1200px;
+            display: flex;
+            flex-direction: column;
+    
+            .title-real-content-pc{
+                width: 100%;
+                height: 70px;
+                margin-top: 20px;
+                text-align: center;
+                visibility: hidden;
+    
+                h2{
+                    font-weight: 400;
+                }
+            }
+        
+            .sort-real-content-pc{
+                width: 100%;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                button{
+                    width: 80px;
+                    height: 40px;
+                    font-size: 15px;
+                    margin-left: 10px;
+                    border-radius: 0%;
+                    border: none;
+                    cursor: pointer;
+                    transition: 0.2s ease-in-out;
+
+                    &:hover{
+
+                        &{
+                            background-color: #303030;
+                            color: white;
+                        }
+                    }
+                }
+            }
+    
+        .box-content-real{
+            width: 100%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+    
+            .box-real{
+                width: 300px;
+                height: 330px;
+                display: flex;
+                cursor: pointer;
+                align-items: flex-end;
+                background-color: #cccccc;
+                background-repeat: no-repeat;
+                transition: 0.3s ease;
+
+                &:hover{
+                    &{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+    
+            .banniere{
+                width: 100%;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                color: white;
+                font-size: 24px;
+                opacity: 0.8;
+                align-items: center;                
+                background-color: #303030;
+            }
+        }
+    
+        .real2{
+            margin-bottom: 100px;
+        }
+        }
+    
+    }
+
+    .Realisation-mob, .Realisation-tab{
+        display: none;
+    }
+
+    
+@media (min-width : 320px) and (max-width: 480px){
+    
+    .Realisation-pc, .Realisation-tab{
+        display: none;
+    }
+
+    .Realisation-mob{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 250vh;
+
+        .title-real-mob{
+            width: 100%;
+            height: 5%;
+            margin-top: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1{
+                font-weight: 300;
+                font-size: 38px;
+            }
+        }
+
+        .real-content-mob{
+            width: 100%;
+            height: 90%;
+            display: flex;
+            margin-top: 10%;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+
+            .box-real-mob{
+                width: 250px;
+                height: 250px;
+                display: flex;
+                cursor: pointer;
+                align-items: flex-end;
+                border-radius: 10px;
+                background-color: #cccccc;
+                background-repeat: no-repeat;
+
+                .banniere-mob{
+                    width: 100%;
+                    height: 40px;
+                    display: flex;
+                    border-bottom-left-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    background-color: #303030;
+                }
+            }
+        }
+
+    }
+
+}
+    
+}
+
+

@@ -1,0 +1,292 @@
+.Parcours{
+    width: 100%;
+    height: 160vh;
+    background-color: #ebebeb;
+    justify-content: center;
+
+    .Parcours-pc{
+        width: 100%;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+    
+        
+    
+        .title-containerP{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            .title-parc{
+                font-weight: 400;
+                font-size: 50px;
+                letter-spacing: 5px;
+            }
+        }
+    
+        .parc-content{
+            width: 100%;
+            height: 70%;
+            display: flex;
+    
+            .contentP{
+                width: 49.5%;
+                height: 100%;
+            }
+                                                /*** Section Bac +2 ***/
+    
+            .leftP{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+    
+                .box-leftP{
+                    width: 76%;
+                    height: 200px;
+                    background-image: url(./img/B2.svg);
+                    background-repeat: no-repeat;
+                    background-color: #BF9B61;
+                }
+    
+                .bac2P{
+                    display: flex;
+                    justify-content: end;
+    
+                    .left-box-contentP{
+                        width: 300px;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+    
+                        .section-box{
+                            width: 90%;
+                            height: 30%;
+                            display: flex;
+                            align-items: center;
+    
+                            img{
+                                width: 12%;
+                                height: auto;
+                            }
+    
+                            p{  font-size: 17.5px;
+                                margin-left: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+                                                    /*** Section Ligne center ***/
+    
+            .center-lineP{
+                width: 40px;
+                height: 97%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+    
+                .circleP{
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 20px;
+                    background-color: black;
+                }
+    
+                .upP{
+                    margin-top: 13px;
+                }
+    
+                .lineP{
+                    width: 6px;
+                    height: 95%;
+                    background-color: black;
+                }
+            }
+                                                 /*** Section Bac +2 and Bac +3 ***/  
+    
+        .rightP{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;  
+            
+            .box-rightP{
+                width: 76%;
+                height: 200px;
+                margin-left: 12%;
+                background-color: #BF9B61;
+            }
+    
+            .bac1P{
+                background-image: url(./img/B1.svg);
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: end;
+    
+                .box-contentP{
+                    width: 300px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+    
+                    .section-box{
+                        width: 90%;
+                        height: 30%;
+                        display: flex;
+                        align-items: center;
+    
+                        img{
+                            width: 12%;
+                            height: auto;
+                        }
+    
+                        p{  font-size: 17.5px;
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+    
+            .bac3P{
+                background-image: url(./img/B3.svg);
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: end;
+    
+                .box-contentP{
+                    width: 300px;
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+    
+                    .section-box{
+                        width: 90%;
+                        height: 30%;
+                        display: flex;
+                        align-items: center;
+    
+                        img{
+                            width: 12%;
+                            height: auto;
+                        }
+    
+                        p{  font-size: 17.5px;
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        
+        }
+    
+    
+    
+    
+    }
+
+    .Parcours-mob{
+        display: none;
+    }
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    .Parcours-pc{
+        display: none;
+    }
+
+    .Parcours-mob{
+        width: 100%;
+        height: 180vh;
+
+
+        .title-containerP-mob{
+            width: 100%;
+            height: 7%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                font-size: 38px;
+                font-weight: 300;
+            }
+        }
+
+        .parcours-content-mob{
+            width: 100%;
+            height: 93%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .box-parcours-mob{
+                width: 80%;
+                height: 24%;
+                display: flex;
+                border-radius: 10px;
+                flex-direction: column;
+                align-items: flex-end;
+                background-color: #835f22;
+
+                .ban-parc-mob{
+                    width: 100%;
+                    height: 50px;
+                    display: flex;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #303030;
+
+                    p{
+                        font-size: 25px;
+                        color: white;
+                    }
+                }
+
+                .box-contentP-mob{
+                    width: 100%;
+                    height: 170px;
+                    display: flex;
+                    margin-top: 9px;
+                    justify-content: space-around;
+                    align-items: flex-start;
+                    flex-direction: column;
+
+
+                    .section-box-mob{
+                        width: 100%;
+                        height: 20px;
+                        display: flex;
+                        margin-left: 15px;
+                        flex-direction: row;
+                        align-items: center;
+
+                        p{
+                            font-size: 16px;
+                            margin-left: 10px;
+                        }
+
+
+                        img{
+                            width: 30px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,46 @@
+.Loader{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+
+    .Loader-pc{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            color: rgb(219, 219, 219);
+            font-weight: 100;
+            font-size: 80px;
+        }
+    }
+
+    .Loader-mob{
+        display: none;
+    }
+   
+
+
+@media (min-width: 320px) and (max-width: 480px){
+
+
+    .Loader-pc{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            color: rgb(219, 219, 219);
+            font-weight: 100;
+            font-size: 50px;
+        }
+    }
+
+}
+
+}
+
