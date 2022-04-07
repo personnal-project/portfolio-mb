@@ -1,6 +1,8 @@
 .About{
     width: 100%;
-    height: 130vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 
     .About-pc{
         width: 100%;
@@ -18,7 +20,7 @@
             color: white;
             justify-content: center;
             align-items: center;
-            margin-top: 40px;
+            margin-top: 70px;
             border-radius: 280px;
             background-color: #303030;
         }
@@ -26,6 +28,7 @@
         .about-intro-pc{
             width: 85%;
             height: 200px;
+            margin-top: 50px;
             display: flex;
 
             h1{
@@ -34,6 +37,25 @@
             }
 
         }
+
+        .about-cir{
+            width: 100%;
+            height: 20vh;
+            display: flex;
+            justify-content: end;
+
+            .about-circle-up{
+                width: 100px;
+                height: 100px;
+                position: fixed;
+                z-index: 2;
+                margin-right: 10px;
+                border-radius: 100px;
+                background-color: yellow ;
+            }
+        }
+
+     
     }
 
 }

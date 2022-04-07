@@ -1,0 +1,10 @@
+.Navigation{
+    width: 100%;
+    height: 13vh;
+}
+
+@media (min-width: 700px){
+    .Navigation-mob{
+        display: none;
+    }          
+}

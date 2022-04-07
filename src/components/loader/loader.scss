@@ -1,7 +1,6 @@
 .Loader{
     width: 100%;
-    min-height: 80vh;
-    max-height: 100vh;
+    height: 100vh;
 
     background-color: black;
 
@@ -9,13 +8,21 @@
         width: 100%;
         height: 100vh;
         display: flex;
-        justify-content: center;
+        justify-content:center ;
         align-items: center;
 
         h1{
+            text-align: center;
             color: rgb(219, 219, 219);
             font-weight: 100;
             font-size: 80px;
+        }
+
+                
+        h3{
+            color: rgb(219, 219, 219);
+            font-weight: 100;
+            font-size: 50px;
         }
     }
 
@@ -27,18 +34,12 @@
 
 @media (min-width: 320px) and (max-width: 480px){
 
-
     .Loader-pc{
-        width: 100%;
-        height: 80vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+        
         h1{
             color: rgb(219, 219, 219);
             font-weight: 100;
-            font-size: 50px;
+            font-size: 40px;
         }
     }
 
