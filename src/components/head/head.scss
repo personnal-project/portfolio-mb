@@ -185,36 +185,47 @@
         height: 100vh;
         overflow: hidden;
 
-        .video-mob{
-          position: absolute;
-          z-index: 0;
-          position: absolute;
-          top: 0;
-          overflow: hidden;
-        }
-        .logo-mob{
-          z-index: 2;
-          background-color: green;
-          position: absolute;
-
-          .svg-mob{
-            z-index: 2;
-            position: absolute;
-            color: white;
-            margin-left: 3vh;
-          }
-        }
-       
-
         .navbar-mob{
           width: 100%;
-          height: 13vh;
+          height: 9vh;
           display: flex;
-          position: absolute;
-          z-index: 2;
-          align-items: center;
-          background-color: #18171738;
+          justify-content: space-between;
+
+          .logo-mob{
+            width: 22%;
+            height: 9vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+            .svg-mob{
+              margin-left: 2vh;
+              color: white;
+            }
+          }
+
+          .hamburger-mob{
+            width: 22%;
+            height: 9vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i{
+              font-size: 33px;
+              color: white;
+            }
+
+          }
+
+
         }
+
+
+
+       
+
+
       }
 
   
