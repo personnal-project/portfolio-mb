@@ -77,6 +77,10 @@ function Head() {
             <i class="bi bi-list"></i>
           </div>
         </div>
+        <video className='video-mob' autoPlay loop muted>
+          <source src={BackServ} type="video/mp4" /> 
+        </video>
+
       </section>
 
                             
