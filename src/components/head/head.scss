@@ -87,7 +87,7 @@
 
     .Head-pc{
       width: 100%;
-      height: 100vh;
+      max-height: 100vh;
       display: flex;
       z-index: 0;
       flex-direction: column;
@@ -176,29 +176,6 @@
         }
       }
     }
-    
-    @media (min-width : 320px) and (max-width : 480px){
-
-    
-      .bar{
-        display: none;
-
-        .cv-cont{
-          display: none;
-        }
-      }
-
-      .video-pc{
-        display: none;
-      }
-
-
-
-
-
-
-    }
-    
   }
   
  

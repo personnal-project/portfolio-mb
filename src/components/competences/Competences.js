@@ -31,10 +31,6 @@ function Competences(){
                                     <p>Python</p>
                                     <div className='py-line'><span></span></div>
                                 </div>
-                                <div className='java'>
-                                    <p>Java</p>
-                                    <div className='java-line'><span></span></div>
-                                </div>
                                 <div className='sql'>
                                     <p>SQL</p>
                                     <div className='sql-line'><span></span></div>
@@ -61,10 +57,6 @@ function Competences(){
                                 <div className='reactn'>
                                     <p>React Native</p>
                                     <div className='reactn-line'><span></span></div>
-                                </div>
-                                <div className='boot'>
-                                    <p>Bootstrap</p>
-                                    <div className='boot-line'><span></span></div>
                                 </div>
                             </div>
                         </div>
