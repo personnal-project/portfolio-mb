@@ -2,6 +2,9 @@ import React from 'react';
 import './realisation.scss';
 import Modal from './modal/Modal';
 import { Link } from 'react-router-dom';
+import MBimmo from './img/mb-immo.PNG';
+import Winera from './img/winera.PNG';
+import Baobab from './img/baobab.PNG';
 import {motion} from 'framer-motion';
 
 
@@ -31,12 +34,18 @@ function Realisation(){
                     </div>
                     <div className='box-content-real'>
                         <div className='box-real'>
+                            <div className='box-imgr'>
+                                <img src={MBimmo}/>
+                            </div>
                             <div className='banniere'>MB Immobilier</div>
                         </div>
                         <div className='box-real'>
                             <div className='banniere'>Flo Création</div>
                         </div>
                         <div className='box-real'>
+                            <div className='box-imgr'>
+                                <img src={Winera}/>
+                            </div>
                             <div className='banniere'>Winera</div>
                         </div>
                     </div>
@@ -45,6 +54,9 @@ function Realisation(){
                             <div className='banniere'>Chez Ailda</div>
                         </div>
                         <div className='box-real'>
+                        <div className='box-imgr'>
+                                <img src={Baobab}/>
+                            </div>
                             <div className='banniere'>Baobab</div>
                         </div>
                     </div>
