@@ -8,7 +8,9 @@ function About(){
     return(
         <div className="About" id='about'>
             <section className="About-pc">
-                <div className="about-id-pc">3D Face is coming</div>
+                <div className="about-circle-pc">
+                    <div className="about-id-pc">3D Face is coming</div>
+                </div>
                 <div className="about-intro-pc">
                     <h1>Je suis Développeur <span className="typing"> <Typewriter
                         onInit={(typewriter) =>{
@@ -18,11 +20,7 @@ function About(){
 
                     <h1>Mon expertise comprend le développement et la maintenance d'applications et de sites Web responsive. Je suis spécialisé dans le développement Web et Application</h1>
 
-                </div>
-                <div className="about-cir">
-                <div className="about-circle-up"></div>
-                </div>
-               
+                </div>     
             </section>
         </div>
     )

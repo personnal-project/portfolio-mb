@@ -1,17 +1,27 @@
 .About{
     width: 100%;
-    height: 100vh;
+    max-height: 130vh;
     display: flex;
     align-items: center;
 
     .About-pc{
         width: 100%;
         height: 100vh;
+        height: 130vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
 
+        .about-circle-pc{
+            width: 100%;
+            height: 30vh;
+            display: flex;
+            margin-top: 30px;
+            justify-content: center;
+            align-items: center;
+
+            
         .about-id-pc{
             width: 280px;
             height: 280px;
@@ -23,12 +33,14 @@
             margin-top: 70px;
             border-radius: 280px;
             background-color: #303030;
+        
+
         }
+}
 
         .about-intro-pc{
-            width: 70%;
-            height: 200px;
-            margin-top: 50px;
+            width: 90%;
+            height: 60vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -64,7 +76,14 @@
             }
         }
 
-     
+     @media (min-width:320px) and (max-width: 480px){
+        
+        .About-pc{
+            width: 100%;
+            height: 130vh;
+        }
+
+     }
     }
 
 }
