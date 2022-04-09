@@ -12,7 +12,7 @@ function About(){
                 <div className="about-intro-pc">
                     <h1>Je suis Développeur <span className="typing"> <Typewriter
                         onInit={(typewriter) =>{
-                        typewriter.typeString("Web").pauseFor(1000).deleteAll().typeString("Mobile").pauseFor(1000).deleteAll().typeString("IA").pauseFor(1000).deleteAll().typeString("Web").pauseFor(1000).deleteAll().typeString("Mobile").pauseFor(1000).deleteAll().typeString("IA").pauseFor(1000).deleteAll().typeString("Web").start();
+                        typewriter.typeString("Web").pauseFor(1000).deleteAll().typeString("Mobile").pauseFor(1000).deleteAll().typeString("IA").pauseFor(1000).deleteAll().typeString("Web").pauseFor(1000).deleteAll().typeString("Mobile").pauseFor(1000).deleteAll().typeString("IA").pauseFor(1000).deleteAll().typeString("Web").pauseFor(1000).deleteAll().typeString("Mobile").pauseFor(1000).deleteAll().typeString("IA").pauseFor(1000).deleteAll().typeString("Web").start();
                         }}
                         /></span> </h1>
 

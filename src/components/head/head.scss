@@ -176,7 +176,58 @@
         }
       }
     }
+
+
+
+
+    @media (min-width: 320px) and (max-width: 500px){
+     
+      .Head-pc{
+        display: none;
+      }
+
+      .Head-mob{
+        width: 100%;
+        height: 100vh;
+
+        .navigation-mob{
+          width: 100%;
+          height: 13vh;
+          display: flex;
+          justify-content: space-between;
+          background-color: #303030;
+
+          .logo-mob{
+            width: 23%;
+            height: 13vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            svg{
+              margin-left: 20px;
+            }
+          }
+
+          .hamburger{
+            width: 23%;
+            height: 13vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            i{
+              font-size: 35px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
   }
+
+
+
   
  
   
