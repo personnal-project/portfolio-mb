@@ -40,7 +40,6 @@ function Head() {
               <Link to="realisations" smooth={true} duration={1000}><li>Réalisations</li></Link>
               <Link to="contact" smooth={true} duration={1000}><li>Contact</li></Link>
           </div>
-
           <div className='cv-cont'>
             <Link onClick={saveCV}><div className='cv-box'>CV</div></Link>
           </div>
@@ -51,7 +50,7 @@ function Head() {
             KEVIN MBOUMBA
           </h1>
           <h3 className='met-head'>
-              DEVELOPPEUR <span className='typing-headindex'>WEB</span>
+              DEVELOPPEUR WEB
           </h3>
         </div>
         <div className='scroll-container'>
@@ -70,11 +69,15 @@ function Head() {
             <i class="bi bi-list"></i>
           </div>
         </header>
-        <div className='head-video-mob'>
-          <video className='video-mob' autoPlay loop muted>
-            <source src={BackServ} type="video/mp4" /> 
-          </video>
-        </div>
+        
+          <div className='head-content-mob'>
+            <h1 className='name-head-mob'>
+              KEVIN MBOUMBA
+            </h1>
+            <h3 className='met-head-mob'>
+                DEVELOPPEUR WEB
+            </h3>
+          </div>
       </section>
 
                         {/* Head mobile*/}
