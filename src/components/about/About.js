@@ -18,7 +18,7 @@ function About(){
                         }}
                         /></span> </h1>
 
-                    <h1>Mon expertise comprend le développement et la maintenance d'applications et de sites Web responsive. Je suis spécialisé dans le développement Web et Application</h1>
+                    <h1>Mon expertise comprend le développement et la maintenance d'applications et de sites Web responsive.</h1>
 
                 </div>     
             </section>
