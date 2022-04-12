@@ -43,7 +43,7 @@ function Realisation(){
                             <div className='box-imgr'>
                                 <img src={Baobab}/>
                             </div>
-                            <div className='banniere'>Winera</div>
+                            <div className='banniere'>Baobab</div>
                         </div>
                         
                         <div className='box-real'>

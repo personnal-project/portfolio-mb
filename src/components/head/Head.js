@@ -69,6 +69,9 @@ function Head() {
             <i class="bi bi-list"></i>
           </div>
         </header>
+        <video className='video-mob' autoPlay loop muted>
+          <source src={BackServ} type="video/mp4" /> 
+        </video>
         
           <div className='head-content-mob'>
             <h1 className='name-head-mob'>
@@ -77,6 +80,10 @@ function Head() {
             <h3 className='met-head-mob'>
                 DEVELOPPEUR WEB
             </h3>
+
+            <div className='scroll-container-mob'>
+              <div className='scroll-button-mob'></div>
+          </div>
           </div>
       </section>
 
