@@ -40,26 +40,19 @@ function Realisation(){
                             <div className='banniere'>MB Immobilier</div>
                         </div>
                         <div className='box-real'>
-                            <div className='banniere'>Flo Création</div>
+                            <div className='box-imgr'>
+                                <img src={Baobab}/>
+                            </div>
+                            <div className='banniere'>Winera</div>
                         </div>
+                        
                         <div className='box-real'>
                             <div className='box-imgr'>
                                 <img src={Winera}/>
                             </div>
                             <div className='banniere'>Winera</div>
                         </div>
-                    </div>
-                    <div className='box-content-real real2'>
-                        <div className='box-real'>
-                            <div className='banniere'>Chez Ailda</div>
-                        </div>
-                        <div className='box-real'>
-                        <div className='box-imgr'>
-                                <img src={Baobab}/>
-                            </div>
-                            <div className='banniere'>Baobab</div>
-                        </div>
-                    </div>
+                    </div>       
                 </div>
             </div>
             <div className='Realisation-mob'>
