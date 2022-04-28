@@ -1,5 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './parcours.scss';
+import Aos from 'aos';
 import Degree from './img/degree.png'
 import University from './img/university.png'
 import Localisation from './img/local.png'
@@ -8,6 +9,12 @@ import {motion} from 'framer-motion';
 
 
 function Parcours(){
+
+    useEffect(() => {
+        Aos.init({});
+       }, []);
+
+
     return(
         <div className='Parcours' id='parcours'>
             <div className='ParcoursPc'>
@@ -17,7 +24,9 @@ function Parcours(){
                     </div>
                     <div className='contentCircle'>
                         
-                        <div className='circleContainer'>
+                        <div data-aos="fade-up"
+                             data-aos-duration="1000"
+                             className='circleContainer'>
                             <div className='circleParcoursPc'>Bac +1</div>
                             <div className='circleInfo'>
                                 <p>Licence MIASHS</p>
@@ -26,7 +35,9 @@ function Parcours(){
                             </div>
                         </div>                        
                        
-                        <div className='circleContainer'>
+                        <div data-aos="fade-up"
+                             data-aos-duration="1500"
+                             className='circleContainer'>
                             <div className='circleParcoursPc'>Bac +2</div>
                             <div className='circleInfo'>
                                 <p>BTS SIO option SLAM</p>
@@ -35,7 +46,9 @@ function Parcours(){
                             </div>
                         </div>
 
-                        <div className='circleContainer'>
+                        <div data-aos="fade-up"
+                             data-aos-duration="2000"
+                             className='circleContainer'>
                             <div className='circleParcoursPc'>Bac +3</div>
                             <div className='circleInfo'>
                                 <p>Bachelor Developpeur Web</p>

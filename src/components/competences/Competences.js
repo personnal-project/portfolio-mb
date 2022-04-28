@@ -23,6 +23,10 @@ function Competences(){
                                     <p>HTML/CSS</p>
                                     <div className='html-line'><span></span></div>
                                 </div>
+                                <div className='scss'>
+                                    <p>SCSS</p>
+                                    <div className='scss-line'><span></span></div>
+                                </div>
                                 <div className='javascript'>
                                     <p>Javascript</p>
                                     <div className='js-line'><span></span></div>
@@ -30,10 +34,6 @@ function Competences(){
                                 <div className='python'>
                                     <p>Python</p>
                                     <div className='py-line'><span></span></div>
-                                </div>
-                                <div className='sql'>
-                                    <p>SQL</p>
-                                    <div className='sql-line'><span></span></div>
                                 </div>
                             </div>
                         </div>
@@ -54,16 +54,13 @@ function Competences(){
                                     <p>Cypress</p>
                                     <div className='cypress-line'><span></span></div>
                                 </div>
-                                <div className='reactn'>
-                                    <p>React Native</p>
-                                    <div className='reactn-line'><span></span></div>
+                                <div className='vuejs'>
+                                    <p>Vue JS</p>
+                                    <div className='vuejs-line'><span></span></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className='comp-det-pc'>
-                    <div className='det-content'><p>Compétences détaillées</p></div>
                 </div>
             </section>
             <section className='Competences-mob'>

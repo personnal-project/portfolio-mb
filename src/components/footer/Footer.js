@@ -6,8 +6,6 @@ import {motion} from 'framer-motion';
 
 function Footer(){
 
-    let link = 'https://www.linkedin.com/in/kevin-mboumba-290671172/';
-    let git = ''
     return(
         <div className='Footer' id='contact'>
             <div className='Footer-pc'>
@@ -17,11 +15,11 @@ function Footer(){
                         <h2>Une question ? Un projet à réaliser ?</h2>
                         <form className='contact-form'>
                             <div className='form-content'>
-                                <input type="text" name="name" id="name" placeholder='Nom'></input>
-                                <input type="text" name="name" id="prenom" placeholder='Prénom'></input>
-                                <input type="text" name="phone" id='phone' placeholder='Téléphone'></input>
-                                <input type="email" name="email" id='mail' placeholder='Adresse E-mail'></input>
-                                <textarea placeholder='Entrez votre message' />
+                                <input type="text" name="name" id="name" placeholder='Nom' required></input>
+                                <input type="text" name="name" id="prenom" placeholder='Prénom' required></input>
+                                <input type="text" name="phone" id='phone' placeholder='Téléphone' required></input>
+                                <input type="email" name="email" id='mail' placeholder='Adresse E-mail' required></input>
+                                <textarea placeholder='Entrez votre message' required />
                                 <button className='submit-btn' type="submit">Envoyer</button>
                             </div>
                         </form>
