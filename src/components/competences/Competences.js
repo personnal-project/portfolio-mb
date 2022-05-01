@@ -1,10 +1,18 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './competences.scss'
+import Aos from 'aos';
 import {motion} from 'framer-motion';
 
 
 
 function Competences(){
+
+    useEffect(() => {
+        Aos.init({});
+       }, []);
+
+
+
     return(
         <div className='Competences' id='competences'>
             <section className='Competences-pc'>
@@ -16,7 +24,8 @@ function Competences(){
                 </div>
                 <div className='comp-content-pc'>
                     <div className='comp-left-pc'>
-                        <div className='lang'>
+                        <div className='lang' data-aos="fade-left"
+                                 data-aos-duration="1200">
                             <h2>Langages de programmations</h2>
                             <div className='lang-content-pc'>
                                 <div className='html'>
@@ -39,7 +48,8 @@ function Competences(){
                         </div>
                     </div>
                     <div className='comp-right-pc'>
-                        <div className='fram'>
+                        <div className='fram' data-aos="fade-right"
+                                 data-aos-duration="1200">
                             <h2>Framework</h2>
                             <div className='fram-content'>
                                 <div className='react'>

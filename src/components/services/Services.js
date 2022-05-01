@@ -24,14 +24,14 @@ function Services(){
                     <div className='web-content-pc'>
                         <h1>Web</h1>
                         <div className='web-content-info-pc'>
-                            <div data-aos="fade-left"
-                                 data-aos-duration="1200" 
+                            <div data-aos="flip-up"
+                                 data-aos-duration="1500" 
                                  className='web-box-pc'>Site vitrine</div>
 
-                            <div  data-aos="zoom-in"
-                                 data-aos-duration="700"  className='web-box-pc'>Application Web</div>
-                            <div  data-aos="fade-right"
-                                 data-aos-duration="1200" className='web-box-pc'>Site E-commerce</div>
+                            <div  data-aos="flip-up"
+                                 data-aos-duration="1500"  className='web-box-pc'>Application Web</div>
+                            <div  data-aos="flip-up"
+                                 data-aos-duration="1500" className='web-box-pc'>Site E-commerce</div>
                         </div>
                     </div>
                     <div className='web-img-pc'><img src={Web}/></div>
