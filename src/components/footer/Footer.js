@@ -1,6 +1,8 @@
 import React from 'react';
 import './footer.scss';
+import Malt from './img/malt-svg.svg';
 import {motion} from 'framer-motion';
+import {a} from 'react-router-dom';
 
 
 
@@ -26,8 +28,9 @@ function Footer(){
                     </div>
                     <div className='contentF rightF'>
                         <div className='footer-icon'>
-                            <i class="bi bi-linkedin"></i>
-                            <i class="bi bi-github"></i>
+                           <a href="https://www.linkedin.com/in/kevin-mboumba-290671172/" target='_blank'><i class="bi bi-linkedin"></i></a>
+                           <a href="https://github.com/personnal-project" target='_blank'><i class="bi bi-github"></i></a>
+                           <a href="https://www.malt.fr/profile/kevinmboumba" target='_blank'><img className='bi-malt' src={Malt}/></a>
                         </div>
                         <div className='footerbtn-scroll'>
                             <div className='scrollup'>

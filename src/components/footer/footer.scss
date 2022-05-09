@@ -106,19 +106,28 @@
             align-items: center;
 
             .footer-icon{
-                width: 100%;
+                width: 60%;
                 height: 80%;
                 display: flex;
-                justify-content: center;
+                justify-content: space-around;
                 align-items: center;
                 
                 i{
                     font-size: 60px;
                 }
+
+                .bi-github{
+                    color: black;
+
+                }
+
+                .bi-malt{
+                    width: 10vh;
+                    height: 10vh;
+                }
     
                 .bi-linkedin{
                     height: fit-content;
-                    margin-right: 25px;
                     color: rgb(0, 77, 150);
                 }
             }
